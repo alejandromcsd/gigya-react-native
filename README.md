@@ -2,7 +2,7 @@
 
 ## About this project
 
-This is a simple demo to illustrate Gigya Integration with React Native. Integration is done via [Native Modules] (https://facebook.github.io/react-native/docs/native-modules-ios.html). The idea is to create a bridge or wrapper to Gigya's available Mobile SDKs (iOS and Android), and use this bridge to run registration/login flows.
+This is a simple demo to illustrate Gigya Integration with React Native. Integration is done via [Native Modules](https://facebook.github.io/react-native/docs/native-modules-ios.html). The idea is to create a React RCTBridgeModule for Gigya's available Mobile SDKs (iOS and Android), and use this bridge to communicate between React Native (JS) and Native (SDKs).
 
 ## Requirements
 
@@ -12,7 +12,7 @@ brew install watchman
 npm install -g react-native-cli
 ```
 
-[For more info click here] (https://facebook.github.io/react-native/docs/getting-started.html)
+[For more info click here](https://facebook.github.io/react-native/docs/getting-started.html)
 
 ## Available Scripts
 

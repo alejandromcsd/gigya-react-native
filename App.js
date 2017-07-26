@@ -1,4 +1,5 @@
 import React from 'react';
+// NativeEventEmitter, NativeModules
 import { NativeEventEmitter, NativeModules, StyleSheet, Text, View } from 'react-native';
 import { Root, Spinner, Toast } from "native-base";
 import Login from './components/Login';
@@ -87,7 +88,7 @@ export default class App extends React.Component {
 
   checkErrors = (error) => {
     if (!error) return;
-    this.notifyUser('An error as occurred');    
+    this.notifyUser(error);
   };
 
   notifyUser = (msg) => Toast.show({

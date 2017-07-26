@@ -4,6 +4,10 @@
 
 This is a simple demo to illustrate Gigya Integration with React Native. Integration is done via [Native Modules](https://facebook.github.io/react-native/docs/native-modules-ios.html). The idea is to create a React RCTBridgeModule for Gigya's available Mobile SDKs (iOS and Android), and use this bridge to communicate between React Native (JS) and Native (SDKs).
 
+## TODOS
+
+* Bridge for Android (currently iOS Bridge only)
+
 ## Requirements
 
 ```

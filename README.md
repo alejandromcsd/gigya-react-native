@@ -1,3 +1,5 @@
+:no_entry: [DEPRECATED] Active at https://github.com/gigya/ReactNative-Demo
+
 ![Gigya Integration with React Native](http://alejandro.gigya-cs.com/gigyareactnative.gif)
 
 ## About this project
